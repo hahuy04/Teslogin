@@ -125,7 +125,7 @@ margin-left: 25px;
 .hidden{
   display: none ; 
 }
-@media (min-width: 768px)
-.container {
-    width: 750px;
+@media screen and (max-width: 700px)
+#mainLeaderboard {
+    height: 60px;
 }
