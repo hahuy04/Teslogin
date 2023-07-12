@@ -125,3 +125,7 @@ margin-left: 25px;
 .hidden{
   display: none ; 
 }
+@media (min-width: 768px)
+.container {
+    width: 750px;
+}
