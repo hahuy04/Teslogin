@@ -1,5 +1,5 @@
 body{
-  background-color: #080710;
+  background-color:#546;
 }
 .background{
   width: 430px;
@@ -16,12 +16,12 @@ body{
   border-radius: 50%;
 }
 .shape:first-child{
-  background: linear-gradient(#1845ad, #23a2f6);
+  background: linear-gradient(#e117f8, #5dc4e6);
   left: -80px;
   top: -80px;
 }
 .shape:last-child{
-  background: linear-gradient(to right, #ff521f, #f09819);
+  background: linear-gradient(to top,#e117f8, #5dc4e6);
   right: -30px;
   bottom: -80px;
 }
@@ -74,9 +74,10 @@ input {
 }
 button{
   margin-top: 25px ;
-  width: 100%;
+  margin-left: 1px;
+  width: 105%;
   background-color: #f20909;
-  color:#ffffff;
+  color:#e2d8d8;
   padding: 10px 0;
   font-size: 18px;
   font-weight: 600;
@@ -84,29 +85,30 @@ button{
   cursor: pointer;
 }
 button:hover{
-  background-color: rgba(236, 2, 177, 0.841);
+  background-color: rgba(227, 18, 255, 0.841);
 }
 .social {
   margin-top: 30px;
+  margin-left: 20px;
   display: flex;
 }
 .social div{
-  background: rgb(54, 37, 168);
-  width: 150px;
-  border-radius: 3px;
+  background: rgb(34, 1, 246);
+  width: 100%;
+  border-radius: 4px;
   padding: 5px 10px 10px 5px;
   background-color: rgba(255, 255, 255, 0,07);
-  color: #eaeaea;
+  color: #ffffff;
   text-align: center;
 }
 .social div:hover{
-  background-color: rgba(236, 2, 177, 0.841);
+  background-color: rgba(227, 18, 255, 0.841);
 }
 .social .fb{
 margin-left: 25px;
 }
 .social i{
-  margin-right: 10px;
+  margin-right: center;
 }
 .fied{
   position: relative;
